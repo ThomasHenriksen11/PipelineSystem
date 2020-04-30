@@ -45,7 +45,7 @@
             <TextBox Width="280"/>
         </Viewbox>
         <Viewbox Stretch="Uniform" Grid.Column="1" Grid.Row="7">
-            <Label  Content="Contact name" ></Label>
+            <Label  Content="Value" RenderTransformOrigin="0.578,0.578" ></Label>
         </Viewbox>
         <Viewbox Stretch="Uniform" Grid.Column="1" Grid.Row="8" Grid.ColumnSpan="5">
             <TextBox Width="280">

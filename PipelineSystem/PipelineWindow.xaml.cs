@@ -44,5 +44,31 @@ namespace PipelineSystem
             addTitle.Show();
             this.Close();
         }
+
+        private void TextBox_TextChanged(object sender, TextChangedEventArgs e)
+        {
+
+        }
+
+        private void Grid_DragOver(object sender, DragEventArgs e)
+        {
+            if (e.Data.GetDataPresent(DataFormats.FileDrop))
+            {
+                e.Effects = DragDropEffects.Copy;
+            }
+            else
+            {
+                e.Effects = DragDropEffects.None;
+            }
+        }
+
+        private void Grid_Drop(object sender, DragEventArgs e)
+        {
+            if (null != e.Data && e.Data.GetDataPresent(DataFormats.FileDrop))
+            {
+                var data = e.Data.GetData(DataFormats.FileDrop) as string[];
+                // handle the files here!
+            }
+        }
     }
 }
