@@ -58,6 +58,12 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="Application Layer\Controller.cs" />
+    <Compile Include="Application Layer\CostumerRepo.cs" />
+    <Compile Include="Application Layer\DealRepo.cs" />
+    <Compile Include="Application Layer\EmployeeRepo.cs" />
+    <Compile Include="Application Layer\PilelineRepo.cs" />
+    <Compile Include="Application Layer\TitleRepo.cs" />
     <Compile Include="UI Layer\Window1.xaml.cs">
       <DependentUpon>Window1.xaml</DependentUpon>
     </Compile>
@@ -136,8 +142,6 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Application Layer\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
