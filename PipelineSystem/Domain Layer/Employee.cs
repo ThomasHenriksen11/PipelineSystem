@@ -6,10 +6,13 @@ using System.Threading.Tasks;
 
 namespace PipelineSystem
 {
-    class Employee
+    public class Employee
     {
+        private string phone;
         public string EmployeeName;
-        public string Phone; 
+        public int EmployeeId { get; set; }
+        
+
 
     }
 }

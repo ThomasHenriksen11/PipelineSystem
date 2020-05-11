@@ -7,23 +7,10 @@ using System.Threading.Tasks;
 
 namespace PipelineSystem
 {
-    class Deal
+    public class Deal
     {
-        private string dealName;
-        public string DealName
-        {
-            get
-            {
-                return name1;
-            }
-            set
-            {
-                name1 = value;
-                Textbox.content = name1;
-            }
-        }
+        public Product Product;
+
         
-        public string ContactName;
-        public int Value;
     }
 }

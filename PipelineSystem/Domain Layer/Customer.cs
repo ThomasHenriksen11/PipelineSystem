@@ -6,10 +6,11 @@ using System.Threading.Tasks;
 
 namespace PipelineSystem
 {
-    class Customer
+    public class Customer
     {
         public string CompanyName;
-        public string CVR;
-        public string Email;
+        private string cvr;
+        private string email;
+        public int CostumerId;
     }
 }

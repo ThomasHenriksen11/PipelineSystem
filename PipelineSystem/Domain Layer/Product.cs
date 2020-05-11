@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace PipelineSystem
 {
-    class Product
+    public class Product
     {
         public string ProductName;
         public string ProductType;
