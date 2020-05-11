@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\thoma\Desktop\PipelineSystem-master\PipelineSystem\obj\Debug\
+C:\Users\thoma\Desktop\Eksames-projekt-team-6-master\PipelineSystem\PipelineSystem\obj\Debug\
 PipelineSystem
 none
 false
 DEBUG;TRACE
-C:\Users\thoma\Desktop\PipelineSystem-master\PipelineSystem\App.xaml
-51442800920
+C:\Users\thoma\Desktop\Eksames-projekt-team-6-master\PipelineSystem\PipelineSystem\UI Layer\App.xaml
+5-766965427
 
-10-1169835758
-13-1505183044
-AddDeal.xaml;AddPipeline.xaml;AddTitle.xaml;MainWindow.xaml;PipelineWindow.xaml;
+131397820759
+14-1156603769
+UI Layer\AddDeal.xaml;UI Layer\AddPipeline.xaml;UI Layer\AddTitle.xaml;UI Layer\MainWindow.xaml;UI Layer\PipelineWindow.xaml;
 
 True
 
