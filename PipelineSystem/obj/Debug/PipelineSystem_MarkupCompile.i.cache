@@ -5,6 +5,7 @@ winexe
 C#
 .cs
 C:\Users\thoma\source\repos\PipelineSystem\PipelineSystem\obj\Debug\
+C:\Users\youna\Source\Repos\PipelineSystem\PipelineSystem\obj\Debug\
 PipelineSystem
 none
 false
@@ -13,8 +14,12 @@ C:\Users\thoma\source\repos\PipelineSystem\PipelineSystem\UI Layer\App.xaml
 5-766965427
 
 14-1578749080
+C:\Users\youna\Source\Repos\PipelineSystem\PipelineSystem\UI Layer\App.xaml
+6-951875509
+
+21-245029086
 13-1505183044
-UI Layer\AddDeal.xaml;UI Layer\AddPipeline.xaml;UI Layer\AddTitle.xaml;UI Layer\MainWindow.xaml;UI Layer\PipelineWindow.xaml;
+UI Layer\AddDeal.xaml;UI Layer\AddPipeline.xaml;UI Layer\AddTitle.xaml;UI Layer\MainWindow.xaml;UI Layer\PipelineWindow.xaml;UI Layer\Window1.xaml;
 
 True
 
