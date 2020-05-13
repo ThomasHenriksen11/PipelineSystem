@@ -15,22 +15,13 @@ using System.Windows.Shapes;
 namespace PipelineSystem
 {
     /// <summary>
-    /// Interaction logic for AddTitle.xaml
+    /// Interaction logic for test.xaml
     /// </summary>
-    public partial class AddTitle : Window
+    public partial class test : Window
     {
-        public AddTitle()
+        public test()
         {
             InitializeComponent();
-            WindowState = WindowState.Maximized;
-
-        }
-
-        private void BackToPipelineWindow(object sender, RoutedEventArgs e)
-        {
-            PipelineWindow pipelineWindow = new PipelineWindow();
-            pipelineWindow.Show();
-            this.Close();
         }
     }
 }

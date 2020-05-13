@@ -22,6 +22,8 @@ namespace PipelineSystem
         public PipelineWindow()
         {
             InitializeComponent();
+            WindowState = WindowState.Maximized;
+
         }
 
         private void OpenWindow(object sender, RoutedEventArgs e)
