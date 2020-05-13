@@ -8,5 +8,8 @@ namespace PipelineSystem.Application_Layer_V2
 {
     public class PilelineRepo
     {
+        private List pipeLines<>;
+        public void movePosition();
+        public void addPipeline();
     }
 }

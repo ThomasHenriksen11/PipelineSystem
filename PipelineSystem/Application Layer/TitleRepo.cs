@@ -8,5 +8,7 @@ namespace PipelineSystem.Application_Layer
 {
     class TitleRepo
     {
+        private List titles<>;
+        public void addTitle();
     }
 }
