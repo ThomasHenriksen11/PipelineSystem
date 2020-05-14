@@ -22,6 +22,8 @@ namespace PipelineSystem
         public AddTitle()
         {
             InitializeComponent();
+            WindowState = WindowState.Maximized;
+
         }
 
         private void BackToPipelineWindow(object sender, RoutedEventArgs e)
