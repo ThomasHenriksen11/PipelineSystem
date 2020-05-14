@@ -79,6 +79,12 @@
       <SubType>Designer</SubType>
     </Page>
     <Compile Include="Test.cs" />
+    <Compile Include="Application Layer\Controller.cs" />
+    <Compile Include="Application Layer\CostumerRepo.cs" />
+    <Compile Include="Application Layer\DealRepo.cs" />
+    <Compile Include="Application Layer\EmployeeRepo.cs" />
+    <Compile Include="Application Layer\PilelineRepo.cs" />
+    <Compile Include="Application Layer\TitleRepo.cs" />
     <Compile Include="test.xaml.cs">
       <DependentUpon>test.xaml</DependentUpon>
     </Compile>
