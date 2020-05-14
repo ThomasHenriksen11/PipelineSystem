@@ -50,8 +50,8 @@
         <ScrollViewer Grid.Column="2" Grid.Row="4" Margin="0,33.4,9.6,0" Grid.RowSpan="4" HorizontalScrollBarVisibility="Auto" VerticalScrollBarVisibility="Disabled" Grid.ColumnSpan="5">
             <Viewbox Stretch="Uniform" Width="1570" Height="500" HorizontalAlignment="Left" VerticalAlignment="Center" >
                 <Border BorderBrush="Black" BorderThickness="0.6">
-                <Grid DockPanel.Dock="Top" Height="Auto" AllowDrop="True" Drop="Grid_Drop" DragOver="Grid_DragOver" Background="Transparent">
-                    <Grid.ColumnDefinitions>
+                    <Grid DockPanel.Dock="Top" Height="Auto" AllowDrop="True" Background="Transparent" Name="Target">
+                        <Grid.ColumnDefinitions>
                             <ColumnDefinition Width="*" ></ColumnDefinition>
                             <ColumnDefinition Width="*" ></ColumnDefinition>
                             <ColumnDefinition Width="*" ></ColumnDefinition>
@@ -65,34 +65,17 @@
                             <RowDefinition ></RowDefinition>
                             <RowDefinition ></RowDefinition>
                         </Grid.RowDefinitions>
-                    <Viewbox Grid.Column="0" Grid.Row="2" >
-                        <TextBox  Text="Advokaterne Bergholt"></TextBox>
-                    </Viewbox>
-                        <Viewbox Stretch="UniformToFill" Grid.Column="0" Grid.Row="1" Grid.ColumnSpan="10000000" >
-                            <Label Background="LightBlue"></Label>
-                        </Viewbox>
-                    <Viewbox HorizontalAlignment="Stretch"  Grid.Column="0" Grid.Row="0">
-                        <TextBox TextWrapping="Wrap" Grid.Column="0" Grid.Row="0" Text="Contact established"></TextBox>
-                    </Viewbox>
-                        <Viewbox Stretch="Uniform" Grid.Column="1" Grid.Row="0" Grid.RowSpan="1">
-                            <TextBox Text="Product A offered" ></TextBox>
-
-                        </Viewbox>
-                        <Viewbox Stretch="Uniform" Grid.Column="2" Grid.Row="0">
-                            <TextBox Text="Product B offered" ></TextBox>
-
-                        </Viewbox>
-                        <Viewbox Stretch="Uniform" Grid.Column="4" Grid.Row="0">
-                        <TextBox Text="Deal lost" Background="#e83933" ></TextBox>
-                    </Viewbox>
-                    <Viewbox Stretch="Uniform" Grid.Column="3" Grid.Row="0">
-                        <TextBox TextWrapping="Wrap" Text="Deal won" Background="GreenYellow"></TextBox>
-                    </Viewbox>
-                        <Viewbox Stretch="Uniform" Grid.Column="4" Grid.Row="2" >
-                            <TextBox Text="Bismarkvejs advokater" ></TextBox>
-                        </Viewbox>
-                        <Viewbox Grid.Column="5" Grid.Row="0"></Viewbox>
-                    </Grid>
+                        <Button Grid.Column="0" Grid.Row="0" Content="Contact established"></Button>
+                        <Button Grid.Column="1" Grid.Row="0" Content="Product A offered" ></Button>
+                        <Button Grid.Column="2" Grid.Row="0" Content="Product B offered"></Button>
+                        <Button Grid.Column="4" Grid.Row="0" Content="Deal lost" Background="#e83933"></Button>
+                        <Button Grid.Column="3" Grid.Row="0" Content="Deal won" Background="GreenYellow"></Button>
+                        <Button Grid.Column="4" Grid.Row="2" Content="Bismarkvejs advokater"></Button>
+                        <Button Grid.Column="0" Grid.Row="2" Content="Kimbo avo" IsEnabledChanged="Button_IsEnabledChanged" ></Button>
+                        <Button Grid.Column="3" Grid.Row="2" Content="Lala vestergade avo"></Button>
+                        <Border Name="CellBorder"></Border>
+                        
+                         </Grid>
                 </Border>
             </Viewbox>
         </ScrollViewer>

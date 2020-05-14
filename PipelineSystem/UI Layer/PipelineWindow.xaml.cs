@@ -19,6 +19,7 @@ namespace PipelineSystem
     /// </summary>
     public partial class PipelineWindow : Window
     {
+        //---------------------------Buttons--------------------------------//
         public PipelineWindow()
         {
             InitializeComponent();
@@ -47,30 +48,65 @@ namespace PipelineSystem
             this.Close();
         }
 
-        private void TextBox_TextChanged(object sender, TextChangedEventArgs e)
+        private void Button_IsEnabledChanged(object sender, DependencyPropertyChangedEventArgs e)
         {
 
         }
 
-        private void Grid_DragOver(object sender, DragEventArgs e)
-        {
-            if (e.Data.GetDataPresent(DataFormats.FileDrop))
-            {
-                e.Effects = DragDropEffects.Copy;
-            }
-            else
-            {
-                e.Effects = DragDropEffects.None;
-            }
-        }
+        //-------------------------------------Drag and drop------------------------------------------//
 
-        private void Grid_Drop(object sender, DragEventArgs e)
-        {
-            if (null != e.Data && e.Data.GetDataPresent(DataFormats.FileDrop))
-            {
-                var data = e.Data.GetData(DataFormats.FileDrop) as string[];
-                // handle the files here!
-            }
-        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        //private void Viewbox_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
+        //{
+        //  Viewbox v = sender as Viewbox;
+        //DataObject dataObj = new DataObject();
+        //dataObj.SetData("Name");
+        //DragDrop.DoDragDrop(v, dataObj, DragDropEffects.Move);
+        //}
+
+        //
+        //private void ButtonMouseMove(object sender, MouseButtonEventArgs)
+        //{
+        //   Mouse.OverrideCursor = Cursors.Hand;
+        //  fp_Move_Control(sender, e);
+        //}
+        //private void Button_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
+        //{
+        //
+        //           Button btn = sender as Button;
+        //          DataObject dataObj = new DataObject();
+        //         dataObj.SetData("Name");
+        //       DragDrop.DoDragDrop(btn, dataObj, DragDropEffects.Move);
+        // }
+        //private void Target_Drop(object sender, DragEventArgs e)
+        //{
+        //   Border target_control = (Border)sender;
+        //}
+
     }
 }
