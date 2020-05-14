@@ -19,7 +19,7 @@ namespace PipelineSystem
     /// </summary>
     public partial class PipelineWindow : Window
     {
-        //---------------------------Buttons---------------------------------------//
+        //---------------------------Buttons--------------------------------//
         public PipelineWindow()
         {
             InitializeComponent();
