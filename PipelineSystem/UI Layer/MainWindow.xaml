@@ -72,11 +72,6 @@
         </Button>
         <Button Grid.Column="6" Grid.Row="6" Background="White">
             <Viewbox Stretch="Uniform">
-                <Label>Edit actice pipeline</Label>
-            </Viewbox>
-        </Button>
-        <Button Grid.Column="6" Grid.Row="8" Background="White">
-            <Viewbox Stretch="Uniform">
                 <Label>Remove pipeline</Label>
             </Viewbox>
         </Button>
