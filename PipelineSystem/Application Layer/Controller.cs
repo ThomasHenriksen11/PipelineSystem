@@ -8,6 +8,8 @@ namespace PipelineSystem.Application_Layer
 {
     class Controller
     {
-            
+        
+        private void GoToMainWindow();
+        
     }
 }
