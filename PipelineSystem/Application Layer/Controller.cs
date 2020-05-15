@@ -6,10 +6,10 @@ using System.Threading.Tasks;
 
 namespace PipelineSystem.Application_Layer
 {
-    class Controller
+    /*class Controller
     {
         
         private void GoToMainWindow();
         
-    }
+    }*/
 }

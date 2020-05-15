@@ -18,7 +18,11 @@ namespace PipelineSystem
     /// Interaction logic for PipelineWindow.xaml
     /// </summary>
     public partial class PipelineWindow : Window
-    {
+    
+        private int startColumn;
+        private int startRow;
+        private int slutColumn;
+        private int slutRow;
         //---------------------------Buttons--------------------------------//
         public PipelineWindow()
         {
@@ -48,12 +52,49 @@ namespace PipelineSystem
             this.Close();
         }
 
-        private void Button_IsEnabledChanged(object sender, DependencyPropertyChangedEventArgs e)
-        {
 
+        //-------------------------------------Drag and drop------------------------------------//
+        private void Target_PreviewMouseLeftButtonDown(object sender, MouseButtonEventArgs e)
+        {
+            //startPoint  = e.GetPosition(null);
+            var element = (UIElement)e.Source;
+
+            int startColumn = Grid.GetColumn(element);
+            int startRow = Grid.GetRow(element);
         }
 
-        //-------------------------------------Drag and drop------------------------------------------//
+        private void Target_PreviewMouseMove(object sender, MouseEventArgs e)
+        {
+            if (e.LeftButton == MouseButtonState.Pressed)
+            {
+                var element = (UIElement)e.Source;
+
+                int c = Grid.GetColumn(element);
+                int r = Grid.GetRow(element);
+
+            }
+        }
+        private void Target_DragEnter(object sender, DragEventArgs e)
+        {
+            if (!e.Data.GetDataPresent("MyFormat") || sender = e.Source)
+            {
+                e.Effects = DragDropEffects.None;
+            }
+        }
+
+        private void Target_Drop(object sender, DragEventArgs e)
+        {
+            if (e.Data.GetDataPresent("MyFormat"))
+            {
+                var element = (UIElement)e.Source;
+
+                int slutColumn= Grid.GetColumn(element);
+                int slutRow = Grid.GetRow(element);
+            }
+        }
+
+
+
 
 
 
