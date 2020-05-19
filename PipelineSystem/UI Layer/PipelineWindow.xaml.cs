@@ -18,6 +18,7 @@ namespace PipelineSystem
     /// Interaction logic for PipelineWindow.xaml
     /// </summary>
     public partial class PipelineWindow : Window
+    { 
     
         private int startColumn;
         private int startRow;
@@ -56,7 +57,7 @@ namespace PipelineSystem
         //-------------------------------------Drag and drop------------------------------------//
         private void Target_PreviewMouseLeftButtonDown(object sender, MouseButtonEventArgs e)
         {
-            //startPoint  = e.GetPosition(null);
+            //Tager den row og column musen er i når vestre museknap bliver holdt nede
             var element = (UIElement)e.Source;
 
             int startColumn = Grid.GetColumn(element);
@@ -65,32 +66,57 @@ namespace PipelineSystem
 
         private void Target_PreviewMouseMove(object sender, MouseEventArgs e)
         {
+
             if (e.LeftButton == MouseButtonState.Pressed)
             {
                 var element = (UIElement)e.Source;
-
+                Cursor = Cursors.SizeWE;
                 int c = Grid.GetColumn(element);
                 int r = Grid.GetRow(element);
 
             }
+            if (e.LeftButton == MouseButtonState.Released)
+            {
+                Cursor = Cursors.Arrow;
+            }
         }
         private void Target_DragEnter(object sender, DragEventArgs e)
         {
-            if (!e.Data.GetDataPresent("MyFormat") || sender = e.Source)
+            //Hvis det data som bliver trukket hen over drop spottet ikke kan være i spottet så  sker der ikke noget 
+            if (!e.Data.GetDataPresent("MyFormat"))
             {
                 e.Effects = DragDropEffects.None;
+            }
+            //Hvis det data som bliver trukket hen over drop spottet kan være i spottet så ændre musen sig til et kryds
+            if (e.Data.GetDataPresent("MyFormat"))
+            {
+                Cursor = Cursors.Cross;
             }
         }
 
         private void Target_Drop(object sender, DragEventArgs e)
         {
-            if (e.Data.GetDataPresent("MyFormat"))
+            
             {
                 var element = (UIElement)e.Source;
 
                 int slutColumn= Grid.GetColumn(element);
                 int slutRow = Grid.GetRow(element);
+                
             }
+            //hvis dataen kan være i spottet så fjerner den dataen fra det sted det blev dragged fra og ligger det der hvor det blev droppet
+            if (e.Data.GetDataPresent("MyFormat"))
+            {
+                e.Effects = DragDropEffects.Move;
+            }
+        }
+
+        private void Target_DragOver(object sender, DragEventArgs e)
+        {
+            var element = (UIElement)e.Source;
+
+            int slutColumn = Grid.GetColumn(element);
+            int slutRow = Grid.GetRow(element);
         }
 
 
