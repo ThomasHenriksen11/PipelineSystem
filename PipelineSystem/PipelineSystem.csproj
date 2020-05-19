@@ -78,6 +78,12 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
+    <Compile Include="Application Layer\Controller.cs" />
+    <Compile Include="Application Layer\CostumerRepo.cs" />
+    <Compile Include="Application Layer\DealRepo.cs" />
+    <Compile Include="Application Layer\EmployeeRepo.cs" />
+    <Compile Include="Application Layer\PipelineRepo.cs" />
+    <Compile Include="Application Layer\TitleRepo.cs" />
     <Compile Include="Test.cs" />
     <Compile Include="Application Layer\Controller.cs" />
     <Compile Include="Application Layer\CostumerRepo.cs" />
@@ -143,8 +149,6 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Application Layer\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
