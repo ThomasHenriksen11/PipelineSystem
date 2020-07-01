@@ -1,4 +1,5 @@
-﻿using System;
+﻿using PipelineSystem.Application_Layer;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -24,18 +25,20 @@ namespace PipelineSystem
         private int startRow;
         private int slutColumn;
         private int slutRow;
+        private Controller controller;
         //---------------------------Buttons--------------------------------//
-        public PipelineWindow()
+        public PipelineWindow(Controller controller)
         {
             InitializeComponent();
             WindowState = WindowState.Maximized;
+            this.controller = controller;
 
         }
 
         private void OpenWindow(object sender, RoutedEventArgs e)
         {
-            MainWindow mainWindow = new MainWindow();
-            mainWindow.Show();
+            //MainWindow mainWindow = new MainWindow();
+            //mainWindow.Show();
             this.Close();
         }
 
@@ -43,7 +46,7 @@ namespace PipelineSystem
         {
             AddDeal addDeal = new AddDeal();
             addDeal.Show();
-            this.Close();
+            //this.Close();
         }
 
         private void ToAddTitleWindow(object sender, RoutedEventArgs e)
