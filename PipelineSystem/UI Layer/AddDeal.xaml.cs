@@ -28,8 +28,8 @@ namespace PipelineSystem
 
         private void OpenPipelineWindow(object sender, RoutedEventArgs e)
         {
-            PipelineWindow pipelineWindow = new PipelineWindow();
-            pipelineWindow.Show();
+            //PipelineWindow pipelineWindow = new PipelineWindow();
+            //pipelineWindow.Show();
             this.Close();
         }
 
