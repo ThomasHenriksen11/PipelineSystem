@@ -1,4 +1,5 @@
-﻿using System;
+﻿using PipelineSystem.Application_Layer;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -20,6 +21,7 @@ namespace PipelineSystem
     /// </summary>
     public partial class MainWindow : Window
     {
+        Controller controller = new Controller();
         public MainWindow()
         {
             InitializeComponent();
@@ -29,16 +31,21 @@ namespace PipelineSystem
 
         private void OpenWindow(object sender, RoutedEventArgs e)
         {
-            PipelineWindow pipelineWindow = new PipelineWindow();
+            PipelineWindow pipelineWindow = new PipelineWindow(controller);
             pipelineWindow.Show();
-            this.Close();
+            //this.Close();
         }
 
         private void OpenAddPipeline(object sender, RoutedEventArgs e)
         {
-            AddPipeline addPipeline = new AddPipeline();
+            AddPipeline addPipeline = new AddPipeline(controller);
             addPipeline.Show();
-            this.Close();
+            //this.Close();
+        }
+
+        private void TextBox_SourceUpdated(object sender, DataTransferEventArgs e)
+        {
+
         }
     }
 }

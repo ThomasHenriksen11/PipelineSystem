@@ -35,36 +35,14 @@
         <Viewbox Stretch="Uniform" Grid.Row="3" Grid.Column="1" Grid.ColumnSpan="3">
             <Label Content="Actice pipelines" FontSize="10"></Label>
         </Viewbox>
-        <Button Grid.Column="1" Grid.Row="4" Background="White" Click="OpenWindow">
-            <Viewbox Stretch="Uniform">
-                <Label FontSize="23">Sales</Label>
-            </Viewbox>
-        </Button>
         <Button Grid.Column="3" Grid.Row="4" Background="White">
-            <Viewbox Stretch="Uniform">
-                <Label></Label>
-            </Viewbox>
+                <TextBlock></TextBlock>
         </Button>
-        <Button Grid.Column="1" Grid.Row="6" Background="White">
-            <Viewbox Stretch="Uniform">
-                <Label></Label>
-            </Viewbox>
-        </Button>
-        <Button Grid.Column="3" Grid.Row="6" Background="White">
-            <Viewbox Stretch="Uniform">
-                <Label></Label>
-            </Viewbox>
-        </Button>
-        <Button Grid.Column="1" Grid.Row="8" Background="White">
-            <Viewbox Stretch="Uniform">
-                <Label></Label>
-            </Viewbox>
-        </Button>
-        <Button Grid.Column="3" Grid.Row="8" Background="White">
-            <Viewbox Stretch="Uniform">
-                <Label></Label>
-            </Viewbox>
-        </Button>
+        <ListBox  x:Name="Listbox1" ScrollViewer.VerticalScrollBarVisibility="Visible" Grid.Column="1" Grid.ColumnSpan="3" Grid.Row="4" Grid.RowSpan="5" ScrollViewer.HorizontalScrollBarVisibility="Disabled" >
+            <Button  Background="White" Click="OpenWindow">
+                <Label Width='530' FontSize="23">Sales</Label>
+            </Button>
+        </ListBox>
         <Button Grid.Column="6" Grid.Row="4" Background="White" Click="OpenAddPipeline">
             <Viewbox Stretch="Uniform" >
                 <Label>Add new pipeline</Label>

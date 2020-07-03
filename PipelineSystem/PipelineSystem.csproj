@@ -84,6 +84,7 @@
     <Compile Include="Application Layer\EmployeeRepo.cs" />
     <Compile Include="Application Layer\PipelineRepo.cs" />
     <Compile Include="Application Layer\TitleRepo.cs" />
+    <Compile Include="Domain Layer\Pipeline.cs" />
     <Compile Include="Test.cs" />
     <Compile Include="Application Layer\Controller.cs" />
     <Compile Include="Application Layer\CostumerRepo.cs" />
