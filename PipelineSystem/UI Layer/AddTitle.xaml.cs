@@ -22,12 +22,14 @@ namespace PipelineSystem
         public AddTitle()
         {
             InitializeComponent();
+            WindowState = WindowState.Maximized;
+
         }
 
         private void BackToPipelineWindow(object sender, RoutedEventArgs e)
         {
-            PipelineWindow pipelineWindow = new PipelineWindow();
-            pipelineWindow.Show();
+           // PipelineWindow pipelineWindow = new PipelineWindow();
+            //pipelineWindow.Show();
             this.Close();
         }
     }

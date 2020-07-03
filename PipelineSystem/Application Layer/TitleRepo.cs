@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 
 namespace PipelineSystem.Application_Layer
 {
-    class TitleRepo
+    /*class TitleRepo
     {
-    }
+        private List titles<>;
+        public void addTitle();
+    }*/
 }

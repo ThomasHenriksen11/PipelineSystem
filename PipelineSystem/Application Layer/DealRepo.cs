@@ -6,7 +6,12 @@ using System.Threading.Tasks;
 
 namespace PipelineSystem.Application_Layer
 {
-    class DealRepo
+    /*class DealRepo
     {
-    }
+        private List<Deal>();
+        public void addDeal();
+        public void addContract();
+        public void addValue();
+
+    }*/
 }

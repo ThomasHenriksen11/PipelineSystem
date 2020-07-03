@@ -33,15 +33,13 @@
         <Viewbox Stretch="Uniform" Grid.Row="2" Grid.Column="1">
             <Label Name="Name" Content="Name" HorizontalAlignment="Left"></Label>
         </Viewbox>
-        <TextBox Grid.Row="3" Grid.Column="1" Grid.ColumnSpan="7" FontSize="30" VerticalAlignment="Center">
-
-        </TextBox>
-        <Button Grid.Column="1" Grid.Row="5">
+        <TextBox Name="PipelineName" Text="{Binding ElementName=PipelineName, Path=SelectedText, Mode=OneWay}" Grid.Row="3" Grid.Column="1" Grid.ColumnSpan="7" FontSize="30" VerticalAlignment="Center"></TextBox>
+        <Button  Grid.Column="3" Grid.Row="5" Click="AddToList_Click">
             <Viewbox Stretch="Uniform">
                 <Label>Save</Label>
             </Viewbox>
         </Button>
-        <Button Grid.Column="3" Grid.Row="5" Click="OpenMainWindow">
+        <Button Grid.Column="5" Grid.Row="5" Click="OpenMainWindow">
             <Viewbox Stretch="Uniform">
                 <Label>Cancel</Label>
             </Viewbox>

@@ -34,12 +34,12 @@
             </Viewbox>
         </Button>
 
-        <Button Grid.Column="6" Grid.Row="1" Background="White" Click="OpenAddDeal">
+        <Button Grid.Column="6" Grid.Row="2" Background="White" Click="OpenAddDeal">
             <Viewbox Stretch="Uniform">
                 <Label Content="Add deal" ></Label>
             </Viewbox>
         </Button>
-        <Button Grid.Column="6" Grid.Row="2" Background="White" Click="ToAddTitleWindow">
+        <Button Grid.Column="6" Grid.Row="1" Background="White" Click="ToAddTitleWindow">
             <Viewbox Stretch="Uniform">
                 <Label Content="Add title"></Label>
             </Viewbox>
@@ -48,77 +48,35 @@
             <Label Grid.Column="2" Grid.Row="4" Content="Drop spot" HorizontalAlignment="center" VerticalAlignment="Center"></Label>
         </Viewbox>
         <ScrollViewer Grid.Column="2" Grid.Row="4" Margin="0,33.4,9.6,0" Grid.RowSpan="4" HorizontalScrollBarVisibility="Auto" VerticalScrollBarVisibility="Disabled" Grid.ColumnSpan="5">
-            <Grid  HorizontalAlignment="Stretch" DockPanel.Dock="Top" Height="Auto" AllowDrop="True" Drop="Grid_Drop" DragOver="Grid_DragOver" Width="6350" Background="Transparent">
-                <Grid.ColumnDefinitions>
-                    <ColumnDefinition Width="*"></ColumnDefinition>
-                    <ColumnDefinition Width="*"></ColumnDefinition>
-                    <ColumnDefinition Width="*"></ColumnDefinition>
-                    <ColumnDefinition Width="*"></ColumnDefinition>
-                    <ColumnDefinition Width="*"></ColumnDefinition>
-                    <ColumnDefinition Width="*"></ColumnDefinition>
-                    <ColumnDefinition Width="*"></ColumnDefinition>
-                    <ColumnDefinition Width="*"></ColumnDefinition>
-                    <ColumnDefinition Width="*"></ColumnDefinition>
-                    <ColumnDefinition Width="*"></ColumnDefinition>
-                    <ColumnDefinition Width="*"></ColumnDefinition>
-                    <ColumnDefinition Width="*"></ColumnDefinition>
-                    <ColumnDefinition Width="*"></ColumnDefinition>
-                    <ColumnDefinition Width="*"></ColumnDefinition>
-                    <ColumnDefinition Width="*"></ColumnDefinition>
-                    <ColumnDefinition Width="*"></ColumnDefinition>
-                    <ColumnDefinition Width="*"></ColumnDefinition>
-                    <ColumnDefinition Width="*"></ColumnDefinition>
-                    <ColumnDefinition Width="*"></ColumnDefinition>
-                    <ColumnDefinition Width="*"></ColumnDefinition>
-                    <ColumnDefinition Width="*"></ColumnDefinition>
-                    <ColumnDefinition Width="*"></ColumnDefinition>
-                    <ColumnDefinition Width="*"></ColumnDefinition>
-                    <ColumnDefinition Width="*"></ColumnDefinition>
-                    <ColumnDefinition Width="*"></ColumnDefinition>
-                    <ColumnDefinition Width="*"></ColumnDefinition>
-                    <ColumnDefinition Width="*"></ColumnDefinition>
-                    <ColumnDefinition Width="*"></ColumnDefinition>
-                    <ColumnDefinition Width="*"></ColumnDefinition>
-                    <ColumnDefinition Width="*"></ColumnDefinition>
-                    <ColumnDefinition Width="*"></ColumnDefinition>
-                    <ColumnDefinition Width="*"></ColumnDefinition>
-                    <ColumnDefinition Width="*"></ColumnDefinition>
-                    <ColumnDefinition Width="*"></ColumnDefinition>
-                    <ColumnDefinition Width="*"></ColumnDefinition>
-                    <ColumnDefinition Width="*"></ColumnDefinition>
-                    <ColumnDefinition Width="*"></ColumnDefinition>
-                    <ColumnDefinition Width="*"></ColumnDefinition>
-                    <ColumnDefinition Width="*"></ColumnDefinition>
-                    <ColumnDefinition Width="*"></ColumnDefinition>
-                    <ColumnDefinition Width="*"></ColumnDefinition>
-                    <ColumnDefinition Width="*"></ColumnDefinition>
-                    <ColumnDefinition Width="*"></ColumnDefinition>
-                    <ColumnDefinition Width="*"></ColumnDefinition>
-                    <ColumnDefinition Width="*"></ColumnDefinition>
-                    <ColumnDefinition Width="*"></ColumnDefinition>
-                    <ColumnDefinition Width="*"></ColumnDefinition>
-                    <ColumnDefinition Width="*"></ColumnDefinition>
-                    <ColumnDefinition Width="*"></ColumnDefinition>
-                    <ColumnDefinition Width="*"></ColumnDefinition>
-                    <ColumnDefinition Width="*"></ColumnDefinition>
-                    <ColumnDefinition Width="*"></ColumnDefinition>
-                    <ColumnDefinition Width="*"></ColumnDefinition>
-                    <ColumnDefinition Width="*"></ColumnDefinition>
-                    <ColumnDefinition Width="*"></ColumnDefinition>
-                    <ColumnDefinition Width="*"></ColumnDefinition>
-                    <ColumnDefinition Width="*"></ColumnDefinition>
-                    <ColumnDefinition Width="*"></ColumnDefinition>
-                    <ColumnDefinition Width="*"></ColumnDefinition>
-                    <ColumnDefinition Width="*"></ColumnDefinition>
-                </Grid.ColumnDefinitions>
-                <Grid.RowDefinitions>
-                    <RowDefinition Height="*"></RowDefinition>
-                    <RowDefinition Height="*"></RowDefinition>
-                </Grid.RowDefinitions>
-                <TextBox TextWrapping="Wrap" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Column="0" Grid.Row="0" Text="Contact established" FontSize="20"></TextBox>
-                <TextBox TextWrapping="Wrap" DragDrop.DragEnter="Grid_DragOver" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Column="5" Grid.Row="0" Text="Deal lost" FontSize="20" Background="#e83933" TextChanged="TextBox_TextChanged"></TextBox>
-                <TextBox TextWrapping="Wrap" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Column="6" Grid.Row="0" Text="Deal won" FontSize="20" Background="GreenYellow"></TextBox>
-             </Grid>
+            <Viewbox Stretch="Uniform" Width="1570" Height="500" HorizontalAlignment="Left" VerticalAlignment="Center" >
+                <Border BorderBrush="Black" BorderThickness="0.6">
+                    <Grid DockPanel.Dock="Top" AllowDrop="True"  Background="Transparent" Name="Target" PreviewMouseLeftButtonDown="Target_PreviewMouseLeftButtonDown" PreviewMouseMove="Target_PreviewMouseMove" Drop="Target_Drop" DragEnter="Target_DragEnter" DragOver="Target_DragOver">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*" ></ColumnDefinition>
+                            <ColumnDefinition Width="*" ></ColumnDefinition>
+                            <ColumnDefinition Width="*" ></ColumnDefinition>
+                            <ColumnDefinition Width="*" ></ColumnDefinition>
+                            <ColumnDefinition Width="*" ></ColumnDefinition>
+                            <ColumnDefinition Width="*" ></ColumnDefinition>
+
+                        </Grid.ColumnDefinitions>
+                        <Grid.RowDefinitions>
+                            <RowDefinition ></RowDefinition>
+                            <RowDefinition ></RowDefinition>
+                        </Grid.RowDefinitions>
+                        <Button Grid.Column="0" Grid.Row="0" Content="Contact established"></Button>
+                        <Button Grid.Column="1" Grid.Row="0" Content="Product A offered" ></Button>
+                        <Button Grid.Column="2" Grid.Row="0" Content="Product B offered"></Button>
+                        <Button Grid.Column="4" Grid.Row="0" Content="Deal lost" Background="#e83933"></Button>
+                        <Button Grid.Column="3" Grid.Row="0" Content="Deal won" Background="GreenYellow"></Button>
+                        <Button Grid.Column="4" Grid.Row="1" Content="Bismarkvejs advokater"></Button>
+                        <Button Grid.Column="0" Grid.Row="1" Content="Kimbo avo"></Button>
+                        <Button Grid.Column="3" Grid.Row="1" Content="Lala vestergade avo"></Button>
+                        <Border Name="CellBorder"></Border>
+                        
+                         </Grid>
+                </Border>
+            </Viewbox>
         </ScrollViewer>
     </Grid>
 </Window>

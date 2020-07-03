@@ -58,15 +58,10 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
-    <Compile Include="Application Layer\Controller.cs" />
-    <Compile Include="Application Layer\CostumerRepo.cs" />
-    <Compile Include="Application Layer\DealRepo.cs" />
-    <Compile Include="Application Layer\EmployeeRepo.cs" />
-    <Compile Include="Application Layer\PilelineRepo.cs" />
-    <Compile Include="Application Layer\TitleRepo.cs" />
-    <Compile Include="UI Layer\Window1.xaml.cs">
-      <DependentUpon>Window1.xaml</DependentUpon>
-    </Compile>
+    <Page Include="test.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="UI Layer\AddDeal.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -83,6 +78,23 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
+    <Compile Include="Application Layer\Controller.cs" />
+    <Compile Include="Application Layer\CostumerRepo.cs" />
+    <Compile Include="Application Layer\DealRepo.cs" />
+    <Compile Include="Application Layer\EmployeeRepo.cs" />
+    <Compile Include="Application Layer\PipelineRepo.cs" />
+    <Compile Include="Application Layer\TitleRepo.cs" />
+    <Compile Include="Domain Layer\Pipeline.cs" />
+    <Compile Include="Test.cs" />
+    <Compile Include="Application Layer\Controller.cs" />
+    <Compile Include="Application Layer\CostumerRepo.cs" />
+    <Compile Include="Application Layer\DealRepo.cs" />
+    <Compile Include="Application Layer\EmployeeRepo.cs" />
+    <Compile Include="Application Layer\PilelineRepo.cs" />
+    <Compile Include="Application Layer\TitleRepo.cs" />
+    <Compile Include="test.xaml.cs">
+      <DependentUpon>test.xaml</DependentUpon>
+    </Compile>
     <Compile Include="UI Layer\AddDeal.xaml.cs">
       <DependentUpon>AddDeal.xaml</DependentUpon>
     </Compile>
@@ -104,10 +116,6 @@
       <SubType>Code</SubType>
     </Compile>
     <Page Include="UI Layer\PipelineWindow.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="UI Layer\Window1.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
