@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace PipelineSystem
+namespace PipelineSystem.Domain_Layer
 {
     public class Deal
     {

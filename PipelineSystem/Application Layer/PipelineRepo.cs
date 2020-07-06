@@ -6,24 +6,35 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
 
-namespace PipelineSystem.Application_Layer_V2
+namespace PipelineSystem.Application_Layer
 {
 
-    public class PipeLineRepo
+    public class PipeLineRepo : ICrud
     {
         public List<Pipeline> pipeLineRepos = new List<Pipeline>();
         // public void movePosition();
         // public void addPipeline
-        
-        public void AddNewPipeline(Pipeline pipeline)
+
+        public void Add()
         {
-            pipeLineRepos.Add(pipeline);
+            
         }
 
-        public List<Pipeline> GetAll()
+        public string Delete()
         {
-            return pipeLineRepos;
+            throw new NotImplementedException();
         }
+
+        public void Retrieve()
+        {
+            throw new NotImplementedException();
+        }
+
+        public string Update()
+        {
+            throw new NotImplementedException();
+        }
+        
 
     }
 }

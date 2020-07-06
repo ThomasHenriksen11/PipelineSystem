@@ -12,7 +12,6 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
 using PipelineSystem.Application_Layer;
-using PipelineSystem.Application_Layer_V2;
 using PipelineSystem.Domain_Layer;
 
 namespace PipelineSystem
@@ -42,7 +41,7 @@ namespace PipelineSystem
         private void AddToList_Click(object sender, RoutedEventArgs e)
         {
             Pipeline pipeline = new Pipeline();
-            controller.pipeLineRepo.AddNewPipeline(pipeline);
+            controller.pipeLineRepo.Add();
            // MainWindow mainWindow = new MainWindow();
             //mainWindow.Show();
             this.Close();
