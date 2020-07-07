@@ -41,10 +41,13 @@ namespace PipelineSystem
         private void AddToList_Click(object sender, RoutedEventArgs e)
         {
             Pipeline pipeline = new Pipeline();
-            controller.pipeLineRepo.Add();
+            string pipelineName = PipelineName.Text;
+            controller.pipeLineRepo.Add(pipelineName);
            // MainWindow mainWindow = new MainWindow();
             //mainWindow.Show();
             this.Close();
         }
+
+        
     }
 }

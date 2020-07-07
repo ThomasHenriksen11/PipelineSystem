@@ -74,3 +74,29 @@ C:\Users\thoma\Desktop\Git Team 6\pipeline-system-team-6\PipelineSystem\Pipeline
 C:\Users\thoma\Desktop\Git Team 6\pipeline-system-team-6\PipelineSystem\PipelineSystem\PipelineSystem\obj\Debug\PipelineSystem.Properties.Resources.resources
 C:\Users\thoma\Desktop\Git Team 6\pipeline-system-team-6\PipelineSystem\PipelineSystem\PipelineSystem\obj\Debug\PipelineSystem.csproj.GenerateResource.cache
 C:\Users\thoma\Desktop\Git Team 6\pipeline-system-team-6\PipelineSystem\PipelineSystem\PipelineSystem\obj\Debug\PipelineSystem.csproj.CopyComplete
+C:\Users\youna\Source\Repos\ThomasHenriksen11\PipelineSystem\PipelineSystem\obj\Debug\PipelineSystem.csprojAssemblyReference.cache
+C:\Users\youna\Source\Repos\ThomasHenriksen11\PipelineSystem\PipelineSystem\obj\Debug\test.g.cs
+C:\Users\youna\Source\Repos\ThomasHenriksen11\PipelineSystem\PipelineSystem\obj\Debug\UI Layer\AddDeal.g.cs
+C:\Users\youna\Source\Repos\ThomasHenriksen11\PipelineSystem\PipelineSystem\obj\Debug\UI Layer\AddPipeline.g.cs
+C:\Users\youna\Source\Repos\ThomasHenriksen11\PipelineSystem\PipelineSystem\obj\Debug\UI Layer\AddTitle.g.cs
+C:\Users\youna\Source\Repos\ThomasHenriksen11\PipelineSystem\PipelineSystem\obj\Debug\UI Layer\MainWindow.g.cs
+C:\Users\youna\Source\Repos\ThomasHenriksen11\PipelineSystem\PipelineSystem\obj\Debug\UI Layer\PipelineWindow.g.cs
+C:\Users\youna\Source\Repos\ThomasHenriksen11\PipelineSystem\PipelineSystem\obj\Debug\UI Layer\App.g.cs
+C:\Users\youna\Source\Repos\ThomasHenriksen11\PipelineSystem\PipelineSystem\obj\Debug\PipelineSystem_MarkupCompile.cache
+C:\Users\youna\Source\Repos\ThomasHenriksen11\PipelineSystem\PipelineSystem\obj\Debug\PipelineSystem_MarkupCompile.lref
+C:\Users\youna\Source\Repos\ThomasHenriksen11\PipelineSystem\PipelineSystem\obj\Debug\PipelineSystem.exe
+C:\Users\youna\Source\Repos\ThomasHenriksen11\PipelineSystem\PipelineSystem\obj\Debug\PipelineSystem.pdb
+C:\Users\youna\Source\Repos\ThomasHenriksen11\PipelineSystem\PipelineSystem\bin\Debug\PipelineSystem.exe.config
+C:\Users\youna\Source\Repos\ThomasHenriksen11\PipelineSystem\PipelineSystem\bin\Debug\PipelineSystem.exe
+C:\Users\youna\Source\Repos\ThomasHenriksen11\PipelineSystem\PipelineSystem\bin\Debug\PipelineSystem.pdb
+C:\Users\youna\Source\Repos\ThomasHenriksen11\PipelineSystem\PipelineSystem\obj\Debug\test.baml
+C:\Users\youna\Source\Repos\ThomasHenriksen11\PipelineSystem\PipelineSystem\obj\Debug\UI Layer\AddDeal.baml
+C:\Users\youna\Source\Repos\ThomasHenriksen11\PipelineSystem\PipelineSystem\obj\Debug\UI Layer\AddPipeline.baml
+C:\Users\youna\Source\Repos\ThomasHenriksen11\PipelineSystem\PipelineSystem\obj\Debug\UI Layer\AddTitle.baml
+C:\Users\youna\Source\Repos\ThomasHenriksen11\PipelineSystem\PipelineSystem\obj\Debug\UI Layer\MainWindow.baml
+C:\Users\youna\Source\Repos\ThomasHenriksen11\PipelineSystem\PipelineSystem\obj\Debug\UI Layer\PipelineWindow.baml
+C:\Users\youna\Source\Repos\ThomasHenriksen11\PipelineSystem\PipelineSystem\obj\Debug\PipelineSystem.g.resources
+C:\Users\youna\Source\Repos\ThomasHenriksen11\PipelineSystem\PipelineSystem\obj\Debug\PipelineSystem.Properties.Resources.resources
+C:\Users\youna\Source\Repos\ThomasHenriksen11\PipelineSystem\PipelineSystem\obj\Debug\PipelineSystem.csproj.GenerateResource.cache
+C:\Users\youna\Source\Repos\ThomasHenriksen11\PipelineSystem\PipelineSystem\obj\Debug\PipelineSystem.csproj.CoreCompileInputs.cache
+C:\Users\youna\Source\Repos\ThomasHenriksen11\PipelineSystem\PipelineSystem\obj\Debug\PipelineSystem.csproj.CopyComplete
