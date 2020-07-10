@@ -12,29 +12,28 @@ namespace PipelineSystem.Application_Layer
     public class PipeLineRepo : ICrud
     {
         public List<Pipeline> pipeLineRepos = new List<Pipeline>();
+
+        public void Add(string pipeline)
+        {
+            throw new NotImplementedException();
+        }
+
+        public void Delete(Pipeline pipeline)
+        {
+            throw new NotImplementedException();
+        }
+
+        public void Retrieve(Pipeline pipeline)
+        {
+            throw new NotImplementedException();
+        }
+
+        public void Update()
+        {
+            throw new NotImplementedException();
+        }
         // public void movePosition();
         // public void addPipeline
-
-        public void Add()
-        {
-            
-        }
-
-        public string Delete()
-        {
-            throw new NotImplementedException();
-        }
-
-        public void Retrieve()
-        {
-            throw new NotImplementedException();
-        }
-
-        public string Update()
-        {
-            throw new NotImplementedException();
-        }
-        
 
     }
 }

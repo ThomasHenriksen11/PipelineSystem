@@ -4,16 +4,16 @@
 winexe
 C#
 .cs
-C:\Users\youna\Source\Repos\ThomasHenriksen11\PipelineSystem\PipelineSystem\obj\Release\
+C:\Users\youna\Source\Repos\ThomasHenriksen11\PipelineSystem\PipelineSystem\obj\Debug\
 PipelineSystem
 none
 false
-TRACE
+DEBUG;TRACE
 C:\Users\youna\Source\Repos\ThomasHenriksen11\PipelineSystem\PipelineSystem\UI Layer\App.xaml
 6-468249636
 
-23-1914764507
-13-1505183044
+241537843422
+14-1779189517
 test.xaml;UI Layer\AddDeal.xaml;UI Layer\AddPipeline.xaml;UI Layer\AddTitle.xaml;UI Layer\MainWindow.xaml;UI Layer\PipelineWindow.xaml;
 
 True

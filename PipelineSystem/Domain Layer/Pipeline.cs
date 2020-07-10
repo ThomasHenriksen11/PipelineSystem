@@ -10,5 +10,5 @@ namespace PipelineSystem.Domain_Layer
     {
         public string PipelineName { get; set; }
 
-    }
+    } 
 }
