@@ -33,7 +33,7 @@
             <Label Content="Vleppo pipeline" FontSize="25"></Label>
         </Viewbox>
         <Viewbox Stretch="Uniform" Grid.Row="3" Grid.Column="1" Grid.ColumnSpan="3">
-            <Label Content="Actice pipelines" FontSize="10"></Label>
+            <Label Content="Active pipelines" FontSize="10"></Label>
         </Viewbox>
         <Button Grid.Column="3" Grid.Row="4" Background="White">
                 <TextBlock></TextBlock>

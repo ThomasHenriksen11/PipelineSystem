@@ -42,8 +42,8 @@ namespace PipelineSystem
         {
             Pipeline pipeline = new Pipeline();
             string pipelineName = PipelineName.Text;
-            controller.pipeLineRepo.Add(pipelineName);
-           // MainWindow mainWindow = new MainWindow();
+            //controller.pipeLineRepo.Add(pipelineName);
+            MainWindow mainWindow = new MainWindow();
             //mainWindow.Show();
             this.Close();
         }
