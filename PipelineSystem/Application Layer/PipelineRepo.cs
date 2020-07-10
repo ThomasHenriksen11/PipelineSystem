@@ -13,9 +13,12 @@ namespace PipelineSystem.Application_Layer
     {
         public List<Pipeline> pipeLineRepos = new List<Pipeline>();
 
+
         public void Add(string pipeline)
         {
-            throw new NotImplementedException();
+
+            Pipeline Listitem = new Pipeline {PipelineName = pipeline};
+            pipeLineRepos.Add(Listitem);
         }
 
         public void Delete(Pipeline pipeline)
