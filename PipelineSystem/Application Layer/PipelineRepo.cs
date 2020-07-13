@@ -26,10 +26,16 @@ namespace PipelineSystem.Application_Layer
             throw new NotImplementedException();
         }
 
-        public void Retrieve(Pipeline pipeline)
+        public string Retrieve(string name)
         {
-            throw new NotImplementedException();
+            /*foreach (Pipeline item in pipeLineRepos.Where(p = p.PipelineName == name))
+            {
+                name = item.PipelineName;
+            }
+                    */ return name;
+                    
         }
+        
 
         public void Update()
         {
