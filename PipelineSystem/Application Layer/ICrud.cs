@@ -10,8 +10,8 @@ namespace PipelineSystem.Application_Layer
 {
     public interface ICrud
     {
-        void Add(string pipeline);
-        void Retrieve(Pipeline pipeline);
+        void Add(string name);
+        string Retrieve(string name);
         void Update();
         void Delete(Pipeline pipeline); 
         

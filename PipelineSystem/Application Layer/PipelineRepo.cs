@@ -13,9 +13,12 @@ namespace PipelineSystem.Application_Layer
     {
         public List<Pipeline> pipeLineRepos = new List<Pipeline>();
 
+
         public void Add(string pipeline)
         {
-            throw new NotImplementedException();
+
+            Pipeline Listitem = new Pipeline {PipelineName = pipeline};
+            pipeLineRepos.Add(Listitem);
         }
 
         public void Delete(Pipeline pipeline)
@@ -23,10 +26,16 @@ namespace PipelineSystem.Application_Layer
             throw new NotImplementedException();
         }
 
-        public void Retrieve(Pipeline pipeline)
+        public string Retrieve(string name)
         {
-            throw new NotImplementedException();
+            /*foreach (Pipeline item in pipeLineRepos.Where(p = p.PipelineName == name))
+            {
+                name = item.PipelineName;
+            }
+                    */ return name;
+                    
         }
+        
 
         public void Update()
         {
