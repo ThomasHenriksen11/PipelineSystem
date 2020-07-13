@@ -1,4 +1,5 @@
 ﻿using PipelineSystem.Application_Layer;
+using PipelineSystem.UI_Layer;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -46,6 +47,12 @@ namespace PipelineSystem
         private void TextBox_SourceUpdated(object sender, DataTransferEventArgs e)
         {
 
+        }
+
+        private void OpenRemovePipeline(object sender, RoutedEventArgs e)
+        {
+            RemovePipeline removepipeline = new RemovePipeline;
+            removepipeline
         }
     }
 }
