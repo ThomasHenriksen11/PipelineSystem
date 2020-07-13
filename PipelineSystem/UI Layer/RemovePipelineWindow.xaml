@@ -1,0 +1,39 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PipelineSystem.UI_Layer"
+        xmlns:Application_Layer="clr-namespace:PipelineSystem.Application_Layer" x:Class="PipelineSystem.UI_Layer.RemovePipelineWindow"
+        mc:Ignorable="d"
+        Title="RemovePipelineWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="0.4*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="0.2*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="0.4*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="0.6*"/>
+            <RowDefinition Height="0.7*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="0.5*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="0.5*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="0.5*"/>
+        </Grid.RowDefinitions>
+        <ListBox  x:Name="Listbox2" ScrollViewer.VerticalScrollBarVisibility="Visible" Grid.Column="1" Grid.ColumnSpan="3" Grid.Row="4" Grid.RowSpan="6" ScrollViewer.HorizontalScrollBarVisibility="Disabled" Height="215" Margin="0.2,0,0,27" VerticalAlignment="Bottom" IsSynchronizedWithCurrentItem="False">
+            <ListBox.DataContext>
+                <Application_Layer:PipeLineRepo/>
+            </ListBox.DataContext>
+        </ListBox>
+    </Grid>
+</Window>
