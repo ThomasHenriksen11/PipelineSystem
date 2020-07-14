@@ -1,10 +1,12 @@
-﻿using PipelineSystem.Domain_Layer;
+﻿using PipelineSystem;
+using PipelineSystem.Domain_Layer;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
+using PipelineSystem.UI_Layer;
 
 namespace PipelineSystem.Application_Layer
 {
@@ -15,18 +17,25 @@ namespace PipelineSystem.Application_Layer
 
         public void Add(string pipeline)
         {
-            throw new NotImplementedException();
+            Pipeline Listitem = new Pipeline {PipelineName = pipeline};
+            pipeLineRepos.Add(Listitem);
         }
 
         public void Delete(Pipeline pipeline)
         {
-            throw new NotImplementedException();
+            pipeLineRepos.Remove(pipeline);
         }
 
-        public void Retrieve(Pipeline pipeline)
+        public string Retrieve(string name)
         {
-            throw new NotImplementedException();
+            /*foreach (Pipeline item in pipeLineRepos.Where(p = p.PipelineName == name))
+            {
+                name = item.PipelineName;
+            }
+                    */ return name;
+                    
         }
+        
 
         public void Update()
         {
