@@ -42,17 +42,17 @@ namespace PipelineSystem
             AddPipeline addPipeline = new AddPipeline(controller);
             addPipeline.Show();
             //this.Close();
-        }
-
-        private void TextBox_SourceUpdated(object sender, DataTransferEventArgs e)
-        {
 
         }
 
         private void OpenRemovePipeline(object sender, RoutedEventArgs e)
         {
-            RemovePipeline removepipeline = new RemovePipeline;
-            removepipeline
+            RemovePipelineWindow removePipelineWindow = new RemovePipelineWindow(controller);
+            removePipelineWindow.Show();
         }
+
+
+
+
     }
 }

@@ -30,10 +30,20 @@
             <RowDefinition Height="*"/>
             <RowDefinition Height="0.5*"/>
         </Grid.RowDefinitions>
-        <ListBox  x:Name="Listbox2" ScrollViewer.VerticalScrollBarVisibility="Visible" Grid.Column="1" Grid.ColumnSpan="3" Grid.Row="4" Grid.RowSpan="6" ScrollViewer.HorizontalScrollBarVisibility="Disabled" Height="215" Margin="0.2,0,0,27" VerticalAlignment="Bottom" IsSynchronizedWithCurrentItem="False">
+        <ListBox  x:Name="Listbox2" ScrollViewer.VerticalScrollBarVisibility="Visible" Grid.Column="1" Grid.ColumnSpan="3" Grid.Row="1" Grid.RowSpan="5" ScrollViewer.HorizontalScrollBarVisibility="Disabled" Height="215" Margin="0.2,0,0,27" VerticalAlignment="Bottom" IsSynchronizedWithCurrentItem="False">
             <ListBox.DataContext>
                 <Application_Layer:PipeLineRepo/>
             </ListBox.DataContext>
         </ListBox>
+        <Button Grid.Column="6" Grid.Row="6" Click="OpenMainWindow">
+            <Viewbox Stretch="Uniform">
+                <Label Content="Back"/>
+            </Viewbox>
+        </Button>
+        <Button Grid.Column="6" Grid.Row="4" Click="RemoveFromList_Click">
+            <Viewbox Stretch="Uniform">
+                <Label Content="Remove"/>
+            </Viewbox>
+        </Button>
     </Grid>
 </Window>
