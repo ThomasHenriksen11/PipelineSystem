@@ -39,7 +39,7 @@
         <Button Grid.Column="3" Grid.Row="4" Background="White">
             <TextBlock/>
         </Button>
-        <ListBox  x:Name="Listbox1" ScrollViewer.VerticalScrollBarVisibility="Visible" Grid.Column="1" Grid.ColumnSpan="3" Grid.Row="4" Grid.RowSpan="5" ScrollViewer.HorizontalScrollBarVisibility="Disabled" DataContext="{Binding Items, ElementName=Listbox1}">
+        <ListBox x:Name="Listbox1" ScrollViewer.VerticalScrollBarVisibility="Visible" Grid.Column="1" Grid.ColumnSpan="3" Grid.Row="4" Grid.RowSpan="5" ScrollViewer.HorizontalScrollBarVisibility="Disabled">
             <Button  Background="White" Click="OpenWindow">
                 <Label Width='530' FontSize="23" Content="Sales"/>
             </Button>
