@@ -4,7 +4,7 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:PipelineSystem"
-        xmlns:Application_Layer="clr-namespace:PipelineSystem.Application_Layer" x:Class="PipelineSystem.MainWindow"
+        xmlns:Application_Layer="clr-namespace:PipelineSystem.Application_Layer" x:Class="PipelineSystem.UI_Layer.MainWindow"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>

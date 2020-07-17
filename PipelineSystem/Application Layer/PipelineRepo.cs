@@ -13,7 +13,10 @@ namespace PipelineSystem.Application_Layer
 
     public class PipeLineRepo : ICrud
     {
+
         public List<Pipeline> pipeLineRepos = new List<Pipeline>();
+        
+        
 
         public void Add(string pipeline)
         {
@@ -35,6 +38,7 @@ namespace PipelineSystem.Application_Layer
                     */ return name;
                     
         }
+        
         
 
         public void Update()

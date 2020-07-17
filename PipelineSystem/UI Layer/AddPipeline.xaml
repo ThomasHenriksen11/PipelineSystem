@@ -4,7 +4,7 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:PipelineSystem"
-        xmlns:Domain_Layer="clr-namespace:PipelineSystem.Domain_Layer" x:Class="PipelineSystem.AddPipeline"
+        xmlns:Domain_Layer="clr-namespace:PipelineSystem.Domain_Layer" x:Class="PipelineSystem.UI_Layer.AddPipeline"
         mc:Ignorable="d"
         Title="AddPipeline" Height="450" Width="800">
     <Window.ContextMenu>
