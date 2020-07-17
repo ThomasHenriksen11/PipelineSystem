@@ -15,7 +15,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace PipelineSystem
+namespace PipelineSystem.UI_Layer
 {
     /// <summary>
     /// Interaction logic for MainWindow.xaml
@@ -51,7 +51,7 @@ namespace PipelineSystem
             removePipelineWindow.Show();
         }
 
-
+        
 
 
     }

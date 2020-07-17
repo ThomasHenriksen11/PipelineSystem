@@ -14,7 +14,7 @@ using System.Windows.Shapes;
 using PipelineSystem.Application_Layer;
 using PipelineSystem.Domain_Layer;
 
-namespace PipelineSystem
+namespace PipelineSystem.UI_Layer
 {
     /// <summary>
     /// Interaction logic for AddPipeline.xaml
