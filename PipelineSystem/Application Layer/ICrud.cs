@@ -13,7 +13,6 @@ namespace PipelineSystem.Application_Layer
         void Add(string name);
         string Retrieve(string name);
         void Update();
-        void Delete(Pipeline pipeline); 
         
     }
 }

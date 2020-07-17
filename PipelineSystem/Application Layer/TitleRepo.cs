@@ -6,9 +6,26 @@ using System.Threading.Tasks;
 
 namespace PipelineSystem.Application_Layer
 {
-    /*class TitleRepo
+    class TitleRepo : ICrud
     {
-        private List titles<>;
-        public void addTitle();
-    }*/
+        public List<string> titleRepos = new List<string>();
+        public void Add(string name)
+        {
+           titleRepos.Add(name);
+        }
+
+        public void Remove(string name) 
+        {
+            titleRepos.Remove(name);
+        }
+        public string Retrieve(string name)
+        {
+            throw new NotImplementedException();
+        }
+
+        public void Update()
+        {
+            throw new NotImplementedException();
+        }
+    }
 }
