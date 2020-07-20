@@ -21,7 +21,7 @@ namespace PipelineSystem.UI_Layer
     /// </summary>
     public partial class AddPipeline : Window
     {
-        private Controller controller;
+        private readonly Controller controller;
 
         public AddPipeline(Controller controller)
         {
@@ -40,7 +40,7 @@ namespace PipelineSystem.UI_Layer
         }
         private void AddToList_Click(object sender, RoutedEventArgs e)
         {
-            Pipeline pipeline = new Pipeline();
+            //Pipeline pipeline = new Pipeline();
             string pipelineName = PipelineName.Text;
             if (pipelineName == null)
             {

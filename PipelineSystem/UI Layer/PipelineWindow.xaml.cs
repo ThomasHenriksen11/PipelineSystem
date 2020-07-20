@@ -21,11 +21,11 @@ namespace PipelineSystem.UI_Layer
     public partial class PipelineWindow : Window
     { 
     
-        private int startColumn;
+        /*private int startColumn;
         private int startRow;
         private int slutColumn;
-        private int slutRow;
-        private Controller controller;
+        private int slutRow;*/
+        private readonly Controller controller;
         //---------------------------Buttons--------------------------------//
         public PipelineWindow(Controller controller)
         {
@@ -58,7 +58,7 @@ namespace PipelineSystem.UI_Layer
 
 
         //-------------------------------------Drag and drop------------------------------------//
-        private void Target_PreviewMouseLeftButtonDown(object sender, MouseButtonEventArgs e)
+      /*  private void Target_PreviewMouseLeftButtonDown(object sender, MouseButtonEventArgs e)
         {
             //Tager den row og column musen er i når vestre museknap bliver holdt nede
             var element = (UIElement)e.Source;
@@ -178,5 +178,5 @@ namespace PipelineSystem.UI_Layer
         //   Border target_control = (Border)sender;
         //}
 
-    }
+    */}
 }
