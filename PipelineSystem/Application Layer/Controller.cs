@@ -12,6 +12,7 @@ namespace PipelineSystem.Application_Layer
     {
         public PipeLineRepo pipeLineRepo = new PipeLineRepo();
         public DealRepo dealRepo = new DealRepo();
-    }
+        public TitleRepo titleRepo = new TitleRepo();
+    }   
 
 }

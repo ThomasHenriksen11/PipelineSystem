@@ -29,8 +29,8 @@
             <RowDefinition Height="*"></RowDefinition>
         </Grid.RowDefinitions>
         <TextBlock Grid.Column="3" Grid.Row="2" Text="New title" FontSize="30" HorizontalAlignment="Center" VerticalAlignment="Center" ></TextBlock>
-        <TextBox Grid.Column="2" Grid.Row="5" Grid.ColumnSpan="3" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" FontSize="18"/>
-        <Button Grid.Column="2" Grid.Row="8" Background="White">
+        <TextBox x:Name="TitleName" Grid.Column="2" Grid.Row="5" Grid.ColumnSpan="3" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" FontSize="18"/>
+        <Button Grid.Column="2" Grid.Row="8" Background="White" Click="SaveTitle">
             <Viewbox Stretch="Uniform">
                 <Label FontSize="23">Save</Label>
             </Viewbox>
