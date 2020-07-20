@@ -53,7 +53,7 @@ namespace PipelineSystem.UI_Layer
             controller.dealRepo.Add(name,contactName,value);
             }
             MainWindow mainWindow = new MainWindow();
-            //mainWindow.Show();
+            mainWindow.Show();
             this.Close();
         }
     }
