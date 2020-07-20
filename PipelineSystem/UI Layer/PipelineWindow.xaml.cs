@@ -51,7 +51,7 @@ namespace PipelineSystem.UI_Layer
 
         private void ToAddTitleWindow(object sender, RoutedEventArgs e)
         {
-            AddTitle addTitle = new AddTitle();
+            AddTitle addTitle = new AddTitle(controller);
             addTitle.Show();
             this.Close();
         }

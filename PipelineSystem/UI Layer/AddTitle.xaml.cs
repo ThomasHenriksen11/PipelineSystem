@@ -36,10 +36,8 @@ namespace PipelineSystem
             pipelineWindow.Show();
             this.Close();
         }
-
         private void SaveTitle(object sender, RoutedEventArgs e)
         {
-            Title title = new Title(); //Der mangler en Title Class det er derfor koden ikke kan kører
             string titleName = TitleName.Text;
             if (titleName == null)
             {
@@ -55,5 +53,5 @@ namespace PipelineSystem
             this.Close();
         }
     }
-    }
+    
 }
