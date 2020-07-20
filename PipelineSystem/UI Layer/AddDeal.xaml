@@ -34,19 +34,19 @@
             <Label  Content="Deal name" ></Label>
         </Viewbox>
         <Viewbox Stretch="Uniform" Grid.Column="1" Grid.Row="2" Grid.ColumnSpan="5">
-            <TextBox Text="{Binding DealName, UpdateSourceTrigger=PropertyChanged }" Width="280"/>
+            <TextBox x:Name="DealName" Text="{Binding DealName, UpdateSourceTrigger=PropertyChanged }" Width="280"/>
         </Viewbox>
         <Viewbox Stretch="Uniform" Grid.Column="1" Grid.Row="4">
             <Label  Content="Contact name" ></Label>
         </Viewbox>
         <Viewbox Stretch="Uniform" Grid.Column="1" Grid.Row="5" Grid.ColumnSpan="5">
-            <TextBox Text="{Binding ContactName, UpdateSourceTrigger=PropertyChanged }" Width="280"/>
+            <TextBox x:Name="ContactName" Text="{Binding ContactName, UpdateSourceTrigger=PropertyChanged }" Width="280"/>
         </Viewbox>
         <Viewbox Stretch="Uniform" Grid.Column="1" Grid.Row="7">
             <Label  Content="Value" RenderTransformOrigin="0.578,0.578" ></Label>
         </Viewbox>
         <Viewbox Stretch="Uniform" Grid.Column="1" Grid.Row="8" Grid.ColumnSpan="5">
-            <TextBox Text="{Binding Value, UpdateSourceTrigger=PropertyChanged }" Width="280">
+            <TextBox x:Name="Value" Text="{Binding Value, UpdateSourceTrigger=PropertyChanged }" Width="280">
 
             </TextBox>
         </Viewbox>

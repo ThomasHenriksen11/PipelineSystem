@@ -11,6 +11,8 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
+using PipelineSystem.Domain_Layer;
+using PipelineSystem.Application_Layer;
 
 namespace PipelineSystem.UI_Layer
 {
@@ -35,7 +37,14 @@ namespace PipelineSystem.UI_Layer
 
         private void SaveTextboxValues(object sender, RoutedEventArgs e)
         {
-
+            Deal deal = new Deal();
+            string Name = DealName.Text;
+            string contactName = ContactName.Text;
+            string value = Value.Text;
+            controller.dealRepo.Add(Name,ContactName,Value);
+            MainWindow mainWindow = new MainWindow();
+            //mainWindow.Show();
+            this.Close();
         }
     }
 }
