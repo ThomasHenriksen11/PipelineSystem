@@ -61,10 +61,6 @@
     <Compile Include="UI Layer\RemovePipelineWindow.xaml.cs">
       <DependentUpon>RemovePipelineWindow.xaml</DependentUpon>
     </Compile>
-    <Page Include="test.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
     <Page Include="UI Layer\AddDeal.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -89,10 +85,6 @@
     <Compile Include="Application Layer\PipelineRepo.cs" />
     <Compile Include="Application Layer\TitleRepo.cs" />
     <Compile Include="Domain Layer\Pipeline.cs" />
-    <Compile Include="Test.cs" />
-    <Compile Include="test.xaml.cs">
-      <DependentUpon>test.xaml</DependentUpon>
-    </Compile>
     <Compile Include="UI Layer\AddDeal.xaml.cs">
       <DependentUpon>AddDeal.xaml</DependentUpon>
     </Compile>
