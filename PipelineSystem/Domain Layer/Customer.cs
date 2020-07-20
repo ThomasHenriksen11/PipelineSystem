@@ -8,9 +8,9 @@ namespace PipelineSystem.Domain_Layer
 {
     public class Customer
     {
-        public string CompanyName;
+        /*public string CompanyName;
         private string cvr;
         private string email;
-        public int CostumerId;
+        public int CostumerId;*/
     }
 }

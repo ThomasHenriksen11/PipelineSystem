@@ -34,14 +34,14 @@ namespace PipelineSystem.UI_Layer
         {
             PipelineWindow pipelineWindow = new PipelineWindow(controller);
             pipelineWindow.Show();
-            //this.Close();
+            this.Close();
         }
 
         private void OpenAddPipeline(object sender, RoutedEventArgs e)
         {
             AddPipeline addPipeline = new AddPipeline(controller);
             addPipeline.Show();
-            //this.Close();
+            this.Close();
 
         }
 

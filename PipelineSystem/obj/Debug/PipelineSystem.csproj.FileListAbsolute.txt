@@ -74,8 +74,6 @@ C:\Users\thoma\Desktop\Git Team 6\pipeline-system-team-6\PipelineSystem\Pipeline
 C:\Users\thoma\Desktop\Git Team 6\pipeline-system-team-6\PipelineSystem\PipelineSystem\PipelineSystem\obj\Debug\PipelineSystem.Properties.Resources.resources
 C:\Users\thoma\Desktop\Git Team 6\pipeline-system-team-6\PipelineSystem\PipelineSystem\PipelineSystem\obj\Debug\PipelineSystem.csproj.GenerateResource.cache
 C:\Users\thoma\Desktop\Git Team 6\pipeline-system-team-6\PipelineSystem\PipelineSystem\PipelineSystem\obj\Debug\PipelineSystem.csproj.CopyComplete
-C:\Users\youna\Source\Repos\ThomasHenriksen11\PipelineSystem\PipelineSystem\obj\Debug\PipelineSystem.csprojAssemblyReference.cache
-C:\Users\youna\Source\Repos\ThomasHenriksen11\PipelineSystem\PipelineSystem\obj\Debug\test.g.cs
 C:\Users\youna\Source\Repos\ThomasHenriksen11\PipelineSystem\PipelineSystem\obj\Debug\UI Layer\AddDeal.g.cs
 C:\Users\youna\Source\Repos\ThomasHenriksen11\PipelineSystem\PipelineSystem\obj\Debug\UI Layer\AddPipeline.g.cs
 C:\Users\youna\Source\Repos\ThomasHenriksen11\PipelineSystem\PipelineSystem\obj\Debug\UI Layer\AddTitle.g.cs
@@ -89,7 +87,6 @@ C:\Users\youna\Source\Repos\ThomasHenriksen11\PipelineSystem\PipelineSystem\obj\
 C:\Users\youna\Source\Repos\ThomasHenriksen11\PipelineSystem\PipelineSystem\bin\Debug\PipelineSystem.exe.config
 C:\Users\youna\Source\Repos\ThomasHenriksen11\PipelineSystem\PipelineSystem\bin\Debug\PipelineSystem.exe
 C:\Users\youna\Source\Repos\ThomasHenriksen11\PipelineSystem\PipelineSystem\bin\Debug\PipelineSystem.pdb
-C:\Users\youna\Source\Repos\ThomasHenriksen11\PipelineSystem\PipelineSystem\obj\Debug\test.baml
 C:\Users\youna\Source\Repos\ThomasHenriksen11\PipelineSystem\PipelineSystem\obj\Debug\UI Layer\AddDeal.baml
 C:\Users\youna\Source\Repos\ThomasHenriksen11\PipelineSystem\PipelineSystem\obj\Debug\UI Layer\AddPipeline.baml
 C:\Users\youna\Source\Repos\ThomasHenriksen11\PipelineSystem\PipelineSystem\obj\Debug\UI Layer\AddTitle.baml
@@ -129,3 +126,7 @@ C:\Users\thoma\Desktop\Git Team 6\PipelineSystem\PipelineSystem\obj\Debug\Pipeli
 C:\Users\thoma\Desktop\Git Team 6\PipelineSystem\PipelineSystem\obj\Debug\PipelineSystem.csproj.CopyComplete
 C:\Users\thoma\Desktop\Git Team 6\PipelineSystem\PipelineSystem\obj\Debug\UI Layer\RemovePipelineWindow.g.cs
 C:\Users\thoma\Desktop\Git Team 6\PipelineSystem\PipelineSystem\obj\Debug\UI Layer\RemovePipelineWindow.baml
+C:\Users\youna\source\repos\ThomasHenriksen11\PipelineSystem\PipelineSystem\obj\Debug\UI Layer\RemovePipelineWindow.g.cs
+C:\Users\youna\source\repos\ThomasHenriksen11\PipelineSystem\PipelineSystem\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\youna\source\repos\ThomasHenriksen11\PipelineSystem\PipelineSystem\obj\Debug\UI Layer\RemovePipelineWindow.baml
+C:\Users\youna\Source\Repos\ThomasHenriksen11\PipelineSystem\PipelineSystem\obj\Debug\PipelineSystem.csprojAssemblyReference.cache
