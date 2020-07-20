@@ -33,8 +33,8 @@ namespace PipelineSystem.UI_Layer
 
         private void OpenMainWindow(object sender, RoutedEventArgs e)
         {
-            //MainWindow mainWindow = new MainWindow();
-            //mainWindow.Show();
+            MainWindow mainWindow = new MainWindow();
+            mainWindow.Show();
             this.Close();
 
         }
@@ -42,9 +42,17 @@ namespace PipelineSystem.UI_Layer
         {
             Pipeline pipeline = new Pipeline();
             string pipelineName = PipelineName.Text;
+            if (pipelineName == null)
+            {
+                Console.WriteLine("Error no inputs");
+                Console.ReadLine();
+            }
+            else
+            {
             controller.pipeLineRepo.Add(pipelineName);
+            }
             MainWindow mainWindow = new MainWindow();
-            //mainWindow.Show();
+            mainWindow.Show();
             this.Close();
         }
 

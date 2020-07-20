@@ -44,9 +44,9 @@ namespace PipelineSystem.UI_Layer
 
         private void OpenAddDeal(object sender, RoutedEventArgs e)
         {
-            AddDeal addDeal = new AddDeal();
+            AddDeal addDeal = new AddDeal(controller);
             addDeal.Show();
-            //this.Close();
+            this.Close();
         }
 
         private void ToAddTitleWindow(object sender, RoutedEventArgs e)
