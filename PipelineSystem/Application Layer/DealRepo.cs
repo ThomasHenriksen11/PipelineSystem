@@ -20,8 +20,7 @@ namespace PipelineSystem.Application_Layer
             Deal Listitem = new Deal { Name = name, ContactName = contactName, Value = value};
             dealRepos.Add(Listitem);
         }
-        public void Delete(Deal deal
-            )
+        public void Delete(Deal deal)
         {
             dealRepos.Remove(deal);
         }
