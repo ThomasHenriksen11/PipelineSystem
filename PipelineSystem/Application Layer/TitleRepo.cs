@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace PipelineSystem.Application_Layer
 {
-    class TitleRepo : ICrud
+    public class TitleRepo : ICrud
     {
         public List<string> titleRepos = new List<string>();
         public void Add(string name)
