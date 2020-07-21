@@ -16,10 +16,18 @@ namespace crud_testing
         public void TestMethod1()
         {
             // arrange 
-            string piplename1 = "Velepo";
-            PipeLineRepo pipeLineRepoTest = new PipeLineRepo;
-            // act 
-            pipeLineRepoTest.Add(piplename1);
+            string sa = "sa";
+            string name = "qwerty";
+            string value = "42";
+            DealRepo repo = new DealRepo();
+            List<Deal> deals = new List<Deal>();
+            Deal Cat = new Deal();
+            Cat.ContactName = "sa";
+            Cat.Name = "qwerty";
+            Cat.Value = "42";
+            // act
+            deals.Add(Cat);
+            List<Deal> actual = repo.Add(sa, name, value);
             // assert
             
         }
