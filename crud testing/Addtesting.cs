@@ -29,7 +29,7 @@ namespace crud_testing
             deals.Add(Cat);
             List<Deal> actual = repo.Add(sa, name, value);
             // assert
-            
+            Assert.AreEqual(deals, actual);
         }
     }
 }
