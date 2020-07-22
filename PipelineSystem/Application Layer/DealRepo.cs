@@ -1,9 +1,6 @@
 ﻿using PipelineSystem.Domain_Layer;
 using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace PipelineSystem.Application_Layer
 {
@@ -15,9 +12,9 @@ namespace PipelineSystem.Application_Layer
             Deal Listitem = new Deal { Name = name };
             dealRepos.Add(Listitem);
         }
-        public void Add(string name, string contactName,string value)
+        public void Add(string name, string contactName, string value)
         {
-            Deal Listitem = new Deal { Name = name, ContactName = contactName, Value = value};
+            Deal Listitem = new Deal { Name = name, ContactName = contactName, Value = value };
             dealRepos.Add(Listitem);
         }
         public void Delete(Deal deal)

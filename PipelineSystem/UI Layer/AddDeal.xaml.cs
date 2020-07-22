@@ -1,18 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows;
-using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Shapes;
+﻿using PipelineSystem.Application_Layer;
 using PipelineSystem.Domain_Layer;
-using PipelineSystem.Application_Layer;
+using System;
+using System.Windows;
 
 namespace PipelineSystem.UI_Layer
 {
@@ -43,14 +32,14 @@ namespace PipelineSystem.UI_Layer
             string name = DealName.Text;
             string contactName = ContactName.Text;
             string value = Value.Text;
-            if (name == ""|| contactName == "" || value == "")
+            if (name == "" || contactName == "" || value == "")
             {
                 Console.WriteLine("Error no inputs");
                 Console.ReadLine();
             }
             else
             {
-            controller.dealRepo.Add(name,contactName,value);
+                controller.dealRepo.Add(name, contactName, value);
             }
             MainWindow mainWindow = new MainWindow();
             mainWindow.Show();

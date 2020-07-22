@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\youna\Source\Repos\ThomasHenriksen11\PipelineSystem\PipelineSystem\obj\Debug\
+C:\Users\youna\Source\Repos\PipelineSystem\PipelineSystem\obj\Debug\
 PipelineSystem
 none
 false
 DEBUG;TRACE
-C:\Users\youna\Source\Repos\ThomasHenriksen11\PipelineSystem\PipelineSystem\UI Layer\App.xaml
+C:\Users\youna\Source\Repos\PipelineSystem\PipelineSystem\UI Layer\App.xaml
 61735221162
 
 22571761731
-14-1779189517
+1470901064
 UI Layer\AddDeal.xaml;UI Layer\AddPipeline.xaml;UI Layer\AddTitle.xaml;UI Layer\MainWindow.xaml;UI Layer\PipelineWindow.xaml;UI Layer\RemovePipelineWindow.xaml;
 
-True
+False
 
