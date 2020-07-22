@@ -15,13 +15,12 @@ namespace PipelineSystem.Application_Layer
             Deal Listitem = new Deal { Name = name };
             dealRepos.Add(Listitem);
         }
-        public void Add (string name, string contactName,string value)
+        public void Add(string name, string contactName,string value)
         {
             Deal Listitem = new Deal { Name = name, ContactName = contactName, Value = value};
             dealRepos.Add(Listitem);
         }
-        public void Delete(Deal deal
-            )
+        public void Delete(Deal deal)
         {
             dealRepos.Remove(deal);
         }

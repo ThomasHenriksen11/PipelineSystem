@@ -21,7 +21,7 @@ namespace PipelineSystem.UI_Layer
     /// </summary>
     public partial class AddPipeline : Window
     {
-        private Controller controller;
+        private readonly Controller controller;
 
         public AddPipeline(Controller controller)
         {
@@ -33,18 +33,26 @@ namespace PipelineSystem.UI_Layer
 
         private void OpenMainWindow(object sender, RoutedEventArgs e)
         {
-            //MainWindow mainWindow = new MainWindow();
-            //mainWindow.Show();
+            MainWindow mainWindow = new MainWindow();
+            mainWindow.Show();
             this.Close();
 
         }
         private void AddToList_Click(object sender, RoutedEventArgs e)
         {
-            Pipeline pipeline = new Pipeline();
+            //Pipeline pipeline = new Pipeline();
             string pipelineName = PipelineName.Text;
+            if (pipelineName == null)
+            {
+                Console.WriteLine("Error no inputs");
+                Console.ReadLine();
+            }
+            else
+            {
             controller.pipeLineRepo.Add(pipelineName);
+            }
             MainWindow mainWindow = new MainWindow();
-            //mainWindow.Show();
+            mainWindow.Show();
             this.Close();
         }
 

@@ -1,0 +1,4 @@
+C:\Users\youna\source\repos\ThomasHenriksen11\PipelineSystem\crud testing\obj\Debug\netcoreapp3.1\crud testing.csprojAssemblyReference.cache
+C:\Users\youna\source\repos\ThomasHenriksen11\PipelineSystem\crud testing\obj\Debug\netcoreapp3.1\crud testing.AssemblyInfoInputs.cache
+C:\Users\youna\source\repos\ThomasHenriksen11\PipelineSystem\crud testing\obj\Debug\netcoreapp3.1\crud testing.AssemblyInfo.cs
+C:\Users\youna\source\repos\ThomasHenriksen11\PipelineSystem\crud testing\obj\Debug\netcoreapp3.1\crud testing.csproj.CoreCompileInputs.cache
