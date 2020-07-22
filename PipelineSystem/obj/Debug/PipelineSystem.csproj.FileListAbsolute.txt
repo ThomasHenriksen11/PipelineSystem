@@ -98,7 +98,6 @@ C:\Users\youna\Source\Repos\ThomasHenriksen11\PipelineSystem\PipelineSystem\obj\
 C:\Users\youna\Source\Repos\ThomasHenriksen11\PipelineSystem\PipelineSystem\obj\Debug\PipelineSystem.csproj.CoreCompileInputs.cache
 C:\Users\youna\Source\Repos\ThomasHenriksen11\PipelineSystem\PipelineSystem\obj\Debug\PipelineSystem.csproj.CopyComplete
 C:\Users\thoma\Desktop\Git Team 6\PipelineSystem\PipelineSystem\obj\Debug\PipelineSystem.csprojAssemblyReference.cache
-C:\Users\thoma\Desktop\Git Team 6\PipelineSystem\PipelineSystem\obj\Debug\test.g.cs
 C:\Users\thoma\Desktop\Git Team 6\PipelineSystem\PipelineSystem\obj\Debug\UI Layer\AddDeal.g.cs
 C:\Users\thoma\Desktop\Git Team 6\PipelineSystem\PipelineSystem\obj\Debug\UI Layer\AddPipeline.g.cs
 C:\Users\thoma\Desktop\Git Team 6\PipelineSystem\PipelineSystem\obj\Debug\UI Layer\AddTitle.g.cs
@@ -114,7 +113,6 @@ C:\Users\thoma\Desktop\Git Team 6\PipelineSystem\PipelineSystem\bin\Debug\Pipeli
 C:\Users\thoma\Desktop\Git Team 6\PipelineSystem\PipelineSystem\bin\Debug\PipelineSystem.exe
 C:\Users\thoma\Desktop\Git Team 6\PipelineSystem\PipelineSystem\bin\Debug\PipelineSystem.pdb
 C:\Users\thoma\Desktop\Git Team 6\PipelineSystem\PipelineSystem\bin\Debug\System.Windows.Interactivity.dll
-C:\Users\thoma\Desktop\Git Team 6\PipelineSystem\PipelineSystem\obj\Debug\test.baml
 C:\Users\thoma\Desktop\Git Team 6\PipelineSystem\PipelineSystem\obj\Debug\UI Layer\AddDeal.baml
 C:\Users\thoma\Desktop\Git Team 6\PipelineSystem\PipelineSystem\obj\Debug\UI Layer\AddPipeline.baml
 C:\Users\thoma\Desktop\Git Team 6\PipelineSystem\PipelineSystem\obj\Debug\UI Layer\AddTitle.baml
