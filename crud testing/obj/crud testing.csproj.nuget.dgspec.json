@@ -1,20 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\youna\\source\\repos\\ThomasHenriksen11\\PipelineSystem\\crud testing\\crud testing.csproj": {}
+    "C:\\Users\\thoma\\Desktop\\Git Team 6\\PipelineSystem\\crud testing\\crud testing.csproj": {}
   },
   "projects": {
-    "C:\\Users\\youna\\source\\repos\\ThomasHenriksen11\\PipelineSystem\\crud testing\\crud testing.csproj": {
+    "C:\\Users\\thoma\\Desktop\\Git Team 6\\PipelineSystem\\crud testing\\crud testing.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\youna\\source\\repos\\ThomasHenriksen11\\PipelineSystem\\crud testing\\crud testing.csproj",
+        "projectUniqueName": "C:\\Users\\thoma\\Desktop\\Git Team 6\\PipelineSystem\\crud testing\\crud testing.csproj",
         "projectName": "crud testing",
-        "projectPath": "C:\\Users\\youna\\source\\repos\\ThomasHenriksen11\\PipelineSystem\\crud testing\\crud testing.csproj",
-        "packagesPath": "C:\\Users\\youna\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\youna\\source\\repos\\ThomasHenriksen11\\PipelineSystem\\crud testing\\obj\\",
+        "projectPath": "C:\\Users\\thoma\\Desktop\\Git Team 6\\PipelineSystem\\crud testing\\crud testing.csproj",
+        "packagesPath": "C:\\Users\\thoma\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\thoma\\Desktop\\Git Team 6\\PipelineSystem\\crud testing\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\youna\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\thoma\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -27,8 +30,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\youna\\source\\repos\\ThomasHenriksen11\\PipelineSystem\\PipelineSystem\\PipelineSystem.csproj": {
-                "projectPath": "C:\\Users\\youna\\source\\repos\\ThomasHenriksen11\\PipelineSystem\\PipelineSystem\\PipelineSystem.csproj"
+              "C:\\Users\\thoma\\Desktop\\Git Team 6\\PipelineSystem\\PipelineSystem\\PipelineSystem.csproj": {
+                "projectPath": "C:\\Users\\thoma\\Desktop\\Git Team 6\\PipelineSystem\\PipelineSystem\\PipelineSystem.csproj"
               }
             }
           }
@@ -74,15 +77,16 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\youna\\source\\repos\\ThomasHenriksen11\\PipelineSystem\\PipelineSystem\\PipelineSystem.csproj": {
+    "C:\\Users\\thoma\\Desktop\\Git Team 6\\PipelineSystem\\PipelineSystem\\PipelineSystem.csproj": {
+      "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\youna\\source\\repos\\ThomasHenriksen11\\PipelineSystem\\PipelineSystem\\PipelineSystem.csproj",
+        "projectUniqueName": "C:\\Users\\thoma\\Desktop\\Git Team 6\\PipelineSystem\\PipelineSystem\\PipelineSystem.csproj",
         "projectName": "PipelineSystem",
-        "projectPath": "C:\\Users\\youna\\source\\repos\\ThomasHenriksen11\\PipelineSystem\\PipelineSystem\\PipelineSystem.csproj"
+        "projectPath": "C:\\Users\\thoma\\Desktop\\Git Team 6\\PipelineSystem\\PipelineSystem\\PipelineSystem.csproj"
       },
       "frameworks": {
         "net472": {}
