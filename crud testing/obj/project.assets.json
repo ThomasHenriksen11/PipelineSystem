@@ -5736,11 +5736,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\youna\\source\\repos\\ThomasHenriksen11\\PipelineSystem\\crud testing\\crud testing.csproj",
+      "projectUniqueName": "C:\\Users\\youna\\Source\\Repos\\PipelineSystem\\crud testing\\crud testing.csproj",
       "projectName": "crud testing",
-      "projectPath": "C:\\Users\\youna\\source\\repos\\ThomasHenriksen11\\PipelineSystem\\crud testing\\crud testing.csproj",
+      "projectPath": "C:\\Users\\youna\\Source\\Repos\\PipelineSystem\\crud testing\\crud testing.csproj",
       "packagesPath": "C:\\Users\\youna\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\youna\\source\\repos\\ThomasHenriksen11\\PipelineSystem\\crud testing\\obj\\",
+      "outputPath": "C:\\Users\\youna\\Source\\Repos\\PipelineSystem\\crud testing\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\youna\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -5756,8 +5756,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\youna\\source\\repos\\ThomasHenriksen11\\PipelineSystem\\PipelineSystem\\PipelineSystem.csproj": {
-              "projectPath": "C:\\Users\\youna\\source\\repos\\ThomasHenriksen11\\PipelineSystem\\PipelineSystem\\PipelineSystem.csproj"
+            "C:\\Users\\youna\\Source\\Repos\\PipelineSystem\\PipelineSystem\\PipelineSystem.csproj": {
+              "projectPath": "C:\\Users\\youna\\Source\\Repos\\PipelineSystem\\PipelineSystem\\PipelineSystem.csproj"
             }
           }
         }

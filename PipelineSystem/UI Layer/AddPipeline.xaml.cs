@@ -1,18 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using PipelineSystem.Application_Layer;
+using System;
 using System.Windows;
-using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Shapes;
-using PipelineSystem.Application_Layer;
-using PipelineSystem.Domain_Layer;
 
 namespace PipelineSystem.UI_Layer
 {
@@ -49,13 +37,13 @@ namespace PipelineSystem.UI_Layer
             }
             else
             {
-            controller.pipeLineRepo.Add(pipelineName);
+                controller.pipeLineRepo.Add(pipelineName);
             }
             MainWindow mainWindow = new MainWindow();
             mainWindow.Show();
             this.Close();
         }
 
-        
+
     }
 }

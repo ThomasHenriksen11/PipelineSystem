@@ -1,8 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace PipelineSystem.Application_Layer
 {
@@ -11,10 +8,10 @@ namespace PipelineSystem.Application_Layer
         public List<string> titleRepos = new List<string>();
         public void Add(string name)
         {
-           titleRepos.Add(name);
+            titleRepos.Add(name);
         }
 
-        public void Remove(string name) 
+        public void Remove(string name)
         {
             titleRepos.Remove(name);
         }
