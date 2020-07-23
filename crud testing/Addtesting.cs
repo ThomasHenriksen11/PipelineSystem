@@ -15,20 +15,28 @@ namespace crud_testing
         public void TestMethod1()
         {
             // arrange 
-            string sa = "sa";
-            string name = "qwerty";
-            string value = "42";
-            DealRepo repo = new DealRepo();
-            List<Deal> deals = new List<Deal>();
-            Deal Cat = new Deal();
-            Cat.ContactName = "sa";
-            Cat.Name = "qwerty";
-            Cat.Value = "42";
+
+            PipeLineRepo pipeLineRepo = new PipeLineRepo();
+            List<Pipeline> pipelineRepos = new List<Pipeline>();
+            string Name1 = "Sales";
+            string Name2 = "Hansen advokat"; 
+            string Name3 = "Oles olie";
+            Pipeline pipeline1 = new Pipeline { PipelineName = Name1};
+            Pipeline pipeline2 = new Pipeline { PipelineName = Name2};
+            Pipeline pipeline3 = new Pipeline { PipelineName = Name3};
             // act
-            deals.Add(Cat);
-            List<Deal> actual = repo.Add(sa, name, value);
+            pipelineRepos.Add(pipeline1);
+            pipelineRepos.Add(pipeline2);
+            pipelineRepos.Add(pipeline3);
             // assert
-            Assert.AreEqual(deals, actual);
+            //List<Pipeline> testList = new List<Pipeline>();
+            //testList = (string pipeline1, pipeline2, pipeline3);
+
+            var expected = new List<string>();
+            expected.AddRange(new [] {Name1, Name2, Name3});
+            var actual = new List<Pipeline>();
+            actual.AddRange(new [] {pipeline1, pipeline2, pipeline3});
+            CollectionAssert.AreEquivalent(expected, actual);
         }
-    }
+    }               
 }
