@@ -29,14 +29,18 @@ namespace crud_testing
             pipelineRepos.Add(pipeline2);
             pipelineRepos.Add(pipeline3);
             // assert
-            //List<Pipeline> testList = new List<Pipeline>();
-            //testList = (string pipeline1, pipeline2, pipeline3);
+            List<Pipeline> testList = new List<Pipeline>();
+            testList.Add(pipeline1);
+            testList.Add(pipeline2);
+            testList.Add(pipeline3);
 
-            var expected = new List<string>();
+            Assert.AreEqual(testList, pipelineRepos);
+
+            /*var expected = new List<string>();
             expected.AddRange(new [] {Name1, Name2, Name3});
             var actual = new List<Pipeline>();
             actual.AddRange(new [] {pipeline1, pipeline2, pipeline3});
-            CollectionAssert.AreEquivalent(expected, actual);
+            CollectionAssert.AreEquivalent(expected, actual);*/
         }
     }               
 }

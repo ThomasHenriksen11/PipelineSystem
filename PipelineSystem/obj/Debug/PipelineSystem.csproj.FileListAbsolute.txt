@@ -154,3 +154,4 @@ C:\Users\youna\Source\Repos\PipelineSystem\PipelineSystem\obj\Debug\PipelineSyst
 C:\Users\youna\Source\Repos\PipelineSystem\PipelineSystem\obj\Debug\PipelineSystem.csproj.CopyComplete
 C:\Users\youna\Source\Repos\PipelineSystem\PipelineSystem\obj\Debug\PipelineSystem.exe
 C:\Users\youna\Source\Repos\PipelineSystem\PipelineSystem\obj\Debug\PipelineSystem.pdb
+C:\Users\youna\Source\Repos\PipelineSystem\PipelineSystem\obj\Debug\PipelineSystem.csprojAssemblyReference.cache
