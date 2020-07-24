@@ -5731,23 +5731,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\thoma\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\youna\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\thoma\\Desktop\\Git Team 6\\PipelineSystem\\crud testing\\crud testing.csproj",
+      "projectUniqueName": "C:\\Users\\youna\\Source\\Repos\\PipelineSystem\\crud testing\\crud testing.csproj",
       "projectName": "crud testing",
-      "projectPath": "C:\\Users\\thoma\\Desktop\\Git Team 6\\PipelineSystem\\crud testing\\crud testing.csproj",
-      "packagesPath": "C:\\Users\\thoma\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\thoma\\Desktop\\Git Team 6\\PipelineSystem\\crud testing\\obj\\",
+      "projectPath": "C:\\Users\\youna\\Source\\Repos\\PipelineSystem\\crud testing\\crud testing.csproj",
+      "packagesPath": "C:\\Users\\youna\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\youna\\Source\\Repos\\PipelineSystem\\crud testing\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
-        "C:\\Users\\thoma\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\youna\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -5760,8 +5756,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\thoma\\Desktop\\Git Team 6\\PipelineSystem\\PipelineSystem\\PipelineSystem.csproj": {
-              "projectPath": "C:\\Users\\thoma\\Desktop\\Git Team 6\\PipelineSystem\\PipelineSystem\\PipelineSystem.csproj"
+            "C:\\Users\\youna\\Source\\Repos\\PipelineSystem\\PipelineSystem\\PipelineSystem.csproj": {
+              "projectPath": "C:\\Users\\youna\\Source\\Repos\\PipelineSystem\\PipelineSystem\\PipelineSystem.csproj"
             }
           }
         }
@@ -5807,7 +5803,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
       }
     }
   }
